@@ -71,12 +71,13 @@ public class LuckBalance
 		}
 		
 		//if there is negative luck contest, win it (increase luck)
-		while (luck[index] < 0)
+	/*	while (luck[index] < 0)
 		{
 			totalLuck -= luck[index];
 			++index;
 		}
-		
+	*/	
+	
 		//loose everything else (increase as much luck as possible)
 		for (int i=index; i<luck.length; ++i) 
 		{
